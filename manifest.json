@@ -1,5 +1,5 @@
 {
-   "name": "no-fresh",
+   "name": "Auto-Fresh",
    "version": "1.0",
    "description": "No F5.",
    "icons": {
@@ -13,10 +13,10 @@
       "default_popup": "popup.html",
       "default_title": "TMD 我不要去按F5"
    },
-   "background": {
-      "persistent": false,
-      "scripts": [ "background.js" ]
-   },
+   // "background": {
+   //    "persistent": false,
+   //    "scripts": [ "background.js" ]
+   // },
 
    "content_scripts": [ {
       "js": ["content_script.js"],
