@@ -1,4 +1,6 @@
 Auto-Refresh
 ============
 
-Auto Refresh Chrome Extension。 前端开发的自动刷新chrome扩展工具
+Auto Refresh Chrome Extension。 
+
+适用于前端开发的自动刷新chrome插件
