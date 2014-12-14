@@ -21,7 +21,7 @@
       "run_at": "document_end"
    } ],
    
-   "content_security_policy": "script-src 'self' http:// ; object-src 'self'",
+   // "content_security_policy": "script-src 'self' http:// ; object-src 'self'",
 
    "permissions": ["background", "management", "tabs", "http://*/*", "https://*/*" ]
 }

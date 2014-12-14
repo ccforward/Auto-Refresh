@@ -12,10 +12,10 @@
         // 数据初始化
         _initData: function(){
             var _self = this;
-            // 注入content
+            // 执行外部脚本
             chrome.windows.getCurrent(function (currentWindow) {
                 chrome.tabs.query({ active: true, windowId: currentWindow.id }, function (activeTabs) {
-                    chrome.tabs.executeScript(activeTabs[0].id, { file: 'assets/content.js', allFrames: false });
+                    chrome.tabs.executeScript(activeTabs[0].id, { file: 'assets/getFile.js', allFrames: false });
                 });
             });
 

@@ -1,4 +1,4 @@
-chrome.extension.sendMessage({ 
+geiFilechrome.extension.sendMessage({ 
 	links: sessionStorage['init-file-links'].split(','), 
 	scripts: sessionStorage['init-file-scripts'].split(','), 
 	location: document.location, 
