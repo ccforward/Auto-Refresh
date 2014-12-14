@@ -8,8 +8,9 @@ Auto Refresh Chrome Extension。
 # 自动刷新的chrome插件
 
 ## 功能
-每次修改前端代码（JS CSS Html）后,只需要Ctrl+S即可实时看到页面变化：
-  
+
+每次修改前端代码（JS CSS Html）后,只需要在编辑器Ctrl+S即可实时看到页面变化
+
 1. Html和JS做修改后会自动刷新页面。
 2. CSS的修改会以动画形式同步。
 3. chrome插件支持跨域的ajax，远程的跨域文件也能实时更新。
