@@ -1,3 +1,4 @@
+// 从sessionStorage中获取 js  css
 chrome.extension.sendMessage({ 
 	links: sessionStorage['init-file-links'].split(','), 
 	scripts: sessionStorage['init-file-scripts'].split(','), 

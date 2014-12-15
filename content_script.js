@@ -44,6 +44,7 @@ var firstRender = true,
     oldLinkElements = {},
     scriptElements = {},
     oldScriptElements = {},
+    // 中断的请求 停止发送头信息
     interruptRequest = {},
 
     // 存储文件头信息

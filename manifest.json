@@ -16,6 +16,7 @@
    },
 
    "content_scripts": [ {
+      "all_frames": false,
       "js": ["content_script.js"],
       "matches": [ "http://*/*" ],
       "run_at": "document_end"
