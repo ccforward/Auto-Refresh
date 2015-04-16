@@ -5,6 +5,8 @@ Auto Refresh Chrome Extension。
 
 适用于前端开发的自动刷新chrome插件
 
+[chrome市场地址](https://chrome.google.com/webstore/detail/auto-fresh/kpmibidobilopnejmgmlihijhlmdacmc)
+
 # 自动刷新的chrome插件
 
 ## 功能
