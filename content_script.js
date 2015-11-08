@@ -155,7 +155,8 @@ var Auto = {
 
     // 重新加载文件
     reloadFile : function(route, type){
-        switch(type) {
+        type = type.split(';');
+        switch(type[0]) {
             case 'text/css':
                 var link = linkElements[route],
                     html = document.body.parentNode,
