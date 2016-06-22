@@ -1,5 +1,5 @@
 ## 这个插件已经完成使命 除了自己玩玩以后不再更新了
-实时更新静态资源的未来是`liverload` `webpack`的
+实时更新静态资源的未来是`livereload` `webpack`的
 
 Auto-Refresh
 ============
